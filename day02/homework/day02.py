@@ -1,0 +1,1 @@
+print("aravin gamicnia da ar myavs megobrebi jer ")
