@@ -1,0 +1,75 @@
+<!--ახსენით რისთვის გამოიყენება შემდეგი თეგები: nav, form,
+input, label და ატრიბუტები: type, id, for--> 
+
+<!--nav - გამოიყენება ვებ გვერდებში როდესაც საწყის ადგილას გვსურს დაბრუნება --> 
+
+<!--form - ამაში ჩვენ ვწერთ ინფორმაციასა და ასევე კოდებს მაგ როდესაც გვსურს input ის შეტანა --> 
+
+<!--input -  ელემენტი გამოიყენება სხვადასხვა ტიპის მონაცემების მიღების ფორმებისთვის--> 
+
+<!--label -  ელემენტი გამოიყენება ფორმის ელემენტების წარწერებისთვის 
+ რათა მომხმარებლებს შეეძლოთ მარტივად და სწორად აღიქვან, რა მონაცემი უნდა შეავსონ.--> 
+
+ <!--type - ატრიბუტი განსაზღვრავს,
+ რა სახის ინფორმაცია უნდა შეიყვანოს მომხმარებელმა ან რა ფუნქცია უნდა შეასრულოს ელემენტმა.--> 
+
+ <!--id - ელემენტი იძლევა საშუალებას  ჩვენ ვუპასუხოთ ელემენტს კონკრეტულად,html და სხვა ენების დონეზე 
+  როგორც  დონეზე.--> 
+
+  <!--for -  ატრიბუტი გამოიყენება label ელემენტში, რათა ასოცირდეს კონკრეტულ ფორმის ელემენტთან-->
+
+
+
+  <html>
+    <head>
+    
+        <title>რეგისტრაცია</title>
+    
+    </head>
+    <body>
+    
+        <!-- Navigation --> 
+    
+        <nav>
+            <ul>
+                <li><a href="index.html">მთავარი</a></li>
+                <li><a href="contact.html">კონტაქტი</a></li>
+                <li><a href="register.html">რეგისტრაცია</a></li>
+            </ul>
+        </nav>
+    
+        <!-- Register & Login Forms --> 
+    
+        <section>
+            <h1>რეგისტრაცია / ავტორიზაცია</h1>
+    
+            <!-- Registration Form -->
+            <h2>რეგისტრაცია</h2>
+            <form>
+                <label for="register-name">სახელი:</label>
+                <input type="text" id="register-name" name="register-name" required>
+    
+                <label for="register-email">ელ.ფოსტა:</label>
+                <input type="email" id="register-email" name="register-email" required>
+    
+                <label for="register-password">პაროლი:</label>
+                <input type="password" id="register-password" name="register-password" required>
+    
+                <button type="submit">რეგისტრაცია</button>
+            </form>
+    
+            <!-- Login Form -->
+            <h2>ავტორიზაცია</h2>
+            <form action="#" method="POST">
+                <label for="login-email">ელ.ფოსტა:</label>
+                <input type="email" id="login-email" name="login-email" required>
+    
+                <label for="login-password">პაროლი:</label>
+                <input type="password" id="login-password" name="login-password" required>
+    
+                <button type="submit">შესვლა</button>
+            </form>
+        </section>
+    
+    </body>
+    </html>
